@@ -1,13 +1,13 @@
 * {
     margin:0px;
     padding:0px;
-    font-family: burbank big condensed;
+    font-family: burbank small;
     color:white;
 }
 
 nav{
     min-width: fit-content;
-    background-image: linear-gradient(#1992E0, #0675C5);
+    background-image: linear-gradient(#1992E0,#1289D7, #0675C5);
     height: 30%;
     filter: drop-shadow(0px 6px 5px #2B6CAC);
     justify-content: center;
@@ -19,10 +19,11 @@ ul{
 }
 
 li{
+    /* height: max-content; */
     margin-top: auto;
     margin-bottom: auto;
     list-style: none;
-    font-size: 25px;
+    font-size: 19.2px;
     margin-right: 8%;
     letter-spacing: 1;
 }
@@ -42,30 +43,27 @@ li:hover{
 }
 
 #navIcon{
-    height: 20px;
+    height: 23px;
     width: auto;
     margin-right: 4px;
 }
 
 #play-now-box{
-    position: relative;
     min-width: fit-content;
+    width: 13%;
     border-radius: 15px;
     padding: 20px;
-    background-color: #005DAB;
+    background: linear-gradient(#0074C5,#00428F, #003E8B);
     border: 2px solid #013370;
-    
 }
 
 #play-now{
-    letter-spacing: 2px;
-    padding: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding: 15px;
+    margin: 0 auto;
     color: #6E4D00;
-    background-color: #FEDE60;
-    font-size: 30px;
-    justify-content: baseline;
+    background: linear-gradient(#FFF7D7,#FFDC53,#FFD012,#FFCC01);
+    font-size: 24px;
+    justify-items: center;
     border-radius: 15px;
     border: solid 2px #B47003;
 }
